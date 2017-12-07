@@ -1,0 +1,33 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "globals": {
+    "process": true,
+    "__dirname": true,
+    "Promise": true,
+    "regeneratorRuntime": true
+  },
+  "ecmaFeatures": {
+    "experimentalObjectRestSpread" : true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "strict":0,
+    "indent": 0,
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "no-unused-vars": "off",
+    "no-console": "off"
+  }
+}

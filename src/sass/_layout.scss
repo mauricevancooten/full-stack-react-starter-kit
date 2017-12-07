@@ -1,0 +1,25 @@
+body {
+  background: #eeeeee;
+  margin: 0;
+}
+
+header,
+.container,
+footer {
+  margin: 0 auto;
+  width: 88%;
+  max-width: 1080px;
+}
+
+.wrapper {
+  background: #ffffff;
+  padding: 1em 0;
+}
+
+footer {
+  overflow:auto;
+}
+
+.hide-text {
+  display:none;
+}

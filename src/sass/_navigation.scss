@@ -1,0 +1,17 @@
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  li {
+    margin-right: 0.5em;
+    a {
+      padding: 0.5em 1em;
+      background: #cccccc;
+      border-radius: 15px;
+      transition: 1s;
+      &:hover {
+        background: pink;
+      }
+    }
+  }
+}
